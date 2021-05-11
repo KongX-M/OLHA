@@ -1,0 +1,349 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/lizk/ontologies/2021/2/untitled-ontology-25#"
+     xml:base="http://www.semanticweb.org/lizk/ontologies/2021/2/untitled-ontology-25"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/lizk/ontologies/2021/2/untitled-ontology-25"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0000054 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/GO_0000054">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/GO_0000033"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/GO_0000034"/>
+        <rdfs:label>has-performer</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0000058 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/GO_0000058">
+        <rdfs:label>attibute-of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0000061 -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.obolibrary.org/obo/GO_0000061">
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/GO_0000027"/>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/GO_0000044"/>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/GO_0000055"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <owl:propertyDisjointWith rdf:resource="http://purl.obolibrary.org/obo/GO_0000065"/>
+        <rdfs:label>start location</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0000065 -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.obolibrary.org/obo/GO_0000065">
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/GO_0000027"/>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/GO_0000044"/>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/GO_0000055"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>end location</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0000066 -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.obolibrary.org/obo/GO_0000066">
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/GO_0000025"/>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/GO_0000027"/>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/GO_0000044"/>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/GO_0000045"/>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/GO_0000055"/>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/GO_0000059"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#Name"/>
+        <rdfs:label>object</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0000020 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0000020">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0000033"/>
+        <rdfs:label>CommandAction</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0000021 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0000021">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0000033"/>
+        <rdfs:label>ExperimentAction</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0000022 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0000022">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0000033"/>
+        <rdfs:label>AssessmentAction</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0000025 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0000025">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0000064"/>
+        <rdfs:label>Shake</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0000026 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0000026">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0000064"/>
+        <rdfs:label>Retract</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0000027 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0000027">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0000064"/>
+        <rdfs:label>Move</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0000028 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0000028">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0000064"/>
+        <rdfs:label>Extend</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0000031 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0000031">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0000022"/>
+        <rdfs:label>Measure</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0000032 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0000032">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0000020"/>
+        <rdfs:label>Select</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0000033 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0000033">
+        <rdfs:label>Experiment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0000034 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0000034">
+        <rdfs:label>Equipment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0000036 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0000036">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0000034"/>
+        <rdfs:label>DynamicHandler</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0000037 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0000037">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0000034"/>
+        <rdfs:label>StaticHandler</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0000038 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0000038">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0000037"/>
+        <rdfs:label>Store</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0000039 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0000039">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0000037"/>
+        <rdfs:label>Incubator</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0000040 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0000040">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0000037"/>
+        <rdfs:label>Shaker</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0000041 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0000041">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0000036"/>
+        <rdfs:label>MicrodropletDispenser</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0000042 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0000042">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0000036"/>
+        <rdfs:label>BulkDispenser</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0000043 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0000043">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0000036"/>
+        <rdfs:label>PrecisePipette</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0000044 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0000044">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0000063"/>
+        <rdfs:label>Dispense</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0000045 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0000045">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0000064"/>
+        <rdfs:label>Wash</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0000046 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0000046">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0000036"/>
+        <rdfs:label>PlateTransfer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0000053 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0000053">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0000022"/>
+        <rdfs:label>Record</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0000055 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0000055">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0000063"/>
+        <rdfs:label>Aspirate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0000059 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0000059">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0000064"/>
+        <rdfs:label>Incubate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0000063 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0000063">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0000021"/>
+        <rdfs:label>OperationOnLiquid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0000064 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0000064">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0000021"/>
+        <rdfs:label>OperationOnContainer</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
