@@ -6,7 +6,7 @@
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
-    <owl:Ontology rdf:about="http://www.semanticweb.org/lizk/ontologies/2021/2/untitled-ontology-25"/>
+    <owl:Ontology rdf:about="http://www.semanticweb.org/lizk/ontologies/2021/2/olha"/>
     
 
 
@@ -88,6 +88,145 @@
         <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/GO_0000059"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#Name"/>
         <rdfs:label>object</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0000067 -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.obolibrary.org/obo/GO_0000067">
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/GO_0000032"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>mode</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0000068 -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.obolibrary.org/obo/GO_0000068">
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/GO_0000032"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>option</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0000069 -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.obolibrary.org/obo/GO_0000069">
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/GO_0000044"/>
+        <rdfs:label>prime</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0000070 -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.obolibrary.org/obo/GO_0000070">
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/GO_0000044"/>
+        <rdfs:label>empty</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0000071 -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.obolibrary.org/obo/GO_0000071">
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/GO_0000044"/>
+        <rdfs:label>blowout volume</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0000072 -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.obolibrary.org/obo/GO_0000072">
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/GO_0000045"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#token"/>
+        <rdfs:label>reagent</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0000073 -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.obolibrary.org/obo/GO_0000073">
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/GO_0000045"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rdfs:label>air time</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0000074 -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.obolibrary.org/obo/GO_0000074">
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/GO_0000075"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#Name"/>
+        <rdfs:label>side of wall</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0000076 -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.obolibrary.org/obo/GO_0000076">
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/GO_0000075"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rdfs:label>retract distance</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0000077 -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.obolibrary.org/obo/GO_0000077">
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/GO_0000075"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rdfs:label>horizontal offset</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0000078 -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.obolibrary.org/obo/GO_0000078">
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/GO_0000055"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rdfs:label>pre-aspirate volume</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0000079 -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.obolibrary.org/obo/GO_0000079">
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/GO_0000055"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rdfs:label>post-aspirate volume</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0000080 -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.obolibrary.org/obo/GO_0000080">
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/GO_0000026"/>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/GO_0000028"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <rdfs:label>hatch</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0000081 -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.obolibrary.org/obo/GO_0000081">
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/GO_0000025"/>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/GO_0000059"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rdfs:label>time</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -340,6 +479,15 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0000064">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0000021"/>
         <rdfs:label>OperationOnContainer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0000075 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0000075">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0000063"/>
+        <rdfs:label>TipTouch</rdfs:label>
     </owl:Class>
 </rdf:RDF>
 
